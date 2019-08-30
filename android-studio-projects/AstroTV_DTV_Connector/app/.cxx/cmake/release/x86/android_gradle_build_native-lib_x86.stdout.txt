@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/x86'
+ninja: no work to do.

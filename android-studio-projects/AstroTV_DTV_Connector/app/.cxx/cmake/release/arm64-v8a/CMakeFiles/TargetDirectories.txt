@@ -1,0 +1,3 @@
+/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir

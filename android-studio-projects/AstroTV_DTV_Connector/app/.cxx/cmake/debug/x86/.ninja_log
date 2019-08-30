@@ -1,0 +1,4 @@
+# ninja log v5
+0	2	0	clean	291d2cbb29c72b0
+0	340	1567112737	CMakeFiles/native-lib.dir/native-lib.cpp.o	10fb129407d947df
+341	354	1567112737	/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	64d4a59b0dc85e08

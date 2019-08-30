@@ -1,0 +1,7 @@
+Executable : /home/mirakulo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/x86
+native-lib
+jvmArgs : 
+

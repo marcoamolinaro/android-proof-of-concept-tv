@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/mirakulo/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/mirakulo/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/mirakulo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/mirakulo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/mirakulo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/.cxx/cmake/release/arm64-v8a\" native-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}

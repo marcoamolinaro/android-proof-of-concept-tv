@@ -1,0 +1,20 @@
+# ninja log v5
+0	18	1567112138	build.ninja	d3d1ff77e081b84a
+1	339	1567112261	CMakeFiles/native-lib.dir/native-lib.cpp.o	833bbbd202e1385b
+340	351	1567112261	/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	d1e87dfd53e2810d
+0	7	0	clean	291d2cbb29c72b0
+0	322	1567112360	CMakeFiles/native-lib.dir/native-lib.cpp.o	833bbbd202e1385b
+322	338	1567112360	/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	d1e87dfd53e2810d
+0	348	1567112430	CMakeFiles/native-lib.dir/native-lib.cpp.o	833bbbd202e1385b
+348	362	1567112430	/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	d1e87dfd53e2810d
+0	309	1567112527	CMakeFiles/native-lib.dir/native-lib.cpp.o	833bbbd202e1385b
+309	323	1567112527	/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	d1e87dfd53e2810d
+0	2	0	clean	291d2cbb29c72b0
+0	1	0	clean	291d2cbb29c72b0
+0	1	0	clean	291d2cbb29c72b0
+0	349	1567112599	CMakeFiles/native-lib.dir/native-lib.cpp.o	833bbbd202e1385b
+349	363	1567112599	/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	d1e87dfd53e2810d
+0	1	0	clean	291d2cbb29c72b0
+0	2	0	clean	291d2cbb29c72b0
+0	321	1567112736	CMakeFiles/native-lib.dir/native-lib.cpp.o	833bbbd202e1385b
+321	332	1567112736	/home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	d1e87dfd53e2810d
