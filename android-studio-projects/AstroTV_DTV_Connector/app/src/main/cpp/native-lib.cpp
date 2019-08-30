@@ -14,7 +14,7 @@ Java_com_mirakulo_astrotv_1dtv_1connector_MainActivity_stringFromJNI(
     //return env->NewStringUTF(hello.c_str());
 
     // new:
-    //int i = hello();
+    int i = hello();
     int j = goodbye();
     return env->NewStringUTF( stringFromJNI() );
 
