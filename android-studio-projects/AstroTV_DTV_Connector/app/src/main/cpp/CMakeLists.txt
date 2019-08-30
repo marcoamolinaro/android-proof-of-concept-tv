@@ -34,11 +34,7 @@ set_target_properties(
         # Sets the name of the target.
         AstroTV_DTV_Connector-lib PROPERTIES
         # Set properties on a target.
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/arm64-v8a
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86_64
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/armeabi-v7a
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86
-        IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/${ANDROID_ABI}
+        IMPORTED_LOCATION libs/${ANDROID_ABI}
 )
 
 # Searches for a specified prebuilt library and stores the path as a
@@ -47,31 +43,12 @@ set_target_properties(
 # you want to add. CMake verifies that the library exists before
 # completing its build.
 
-
-
-
-
 find_library( # Sets the name of the path variable.
         log-lib
 
         # Specifies the name of the NDK library that
         # you want CMake to locate.
         log
-)
-
-find_library( # Sets the name of the path variable.
-        a-dtv-c
-
-        # Specifies the name of the NDK library that
-        # you want CMake to locate.
-        #IMPORTED AstroTV_DTV_Connector-lib
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/arm64-v8a
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86_64
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/armeabi-v7a
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86
-        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/libs/${ANDROID_ABI}
-        IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/libs/x86
-        AstroTV_DTV_Connector
 )
 
 # Specifies libraries CMake should link to your target library. You
@@ -84,32 +61,6 @@ target_link_libraries( # Specifies the target library.
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib}
-        #${a-dtv-c}
-        /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/${ANDROID_ABI}/libAstroTV_DTV_Connector.so
+        /home/mirakulo/Projects/android-studio-projects/AstroTV_DTV_Connector/app/libs/${ANDROID_ABI}/libAstroTV_DTV_Connector.so
 )
 
-#target_link_libraries( # Specifies the target library.
-#        AstroTV_DTV_Connector
-#
-#        #IMPORTED /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/arm64-v8a/libAstroTV_DTV_Connector.so
-#        #IMPORTED /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86_64/libAstroTV_DTV_Connector.so
-#        #IMPORTED /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/armeabi-v7a/libAstroTV_DTV_Connector.so
-#        #IMPORTED /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86/libAstroTV_DTV_Connector.so
-#        #IMPORTED /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/${ANDROID_ABI}/libAstroTV_DTV_Connector.so
-#
-#        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/arm64-v8a
-#        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86_64
-#        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/armeabi-v7a
-#        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86
-#        #IMPORTED_LOCATION /home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/${ANDROID_ABI}
-#
-#        #/home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/arm64-v8a/libAstroTV_DTV_Connector.so
-#        #/home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86_64/libAstroTV_DTV_Connector.so
-#        #/home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/armeabi-v7a/libAstroTV_DTV_Connector.so
-#        #/home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/x86/libAstroTV_DTV_Connector.so
-#        #/home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/${ANDROID_ABI}/libAstroTV_DTV_Connector.so
-#
-#        #-L/home/mirakulo/Projects/Android-NDK-Projects/AstroTV_DTV_Connector/obj/local/${ANDROID_ABI} -lAstroTV_DTV_Connector
-#        #AstroTV_DTV_Connector
-#        #${a-dtv-c}
-#)
