@@ -17,6 +17,6 @@ These projects use 'Android-NDK/android-ndk-r20/' infrastructure and their const
 These projects use 'android-studio' framework and their construction are made inside 'android-studio/bin/studio.sh'.
 
 
-# Research & Development
+## Research & Development
 
-This project was started on August 2019 by [Marco Molinaro](marco.molinaro@mirakulo.com) and [Luiz Ferreira](normando@mirakulo.com).
+This project was started on August 2019 by [Marco Molinaro]<marco.molinaro@mirakulo.com> and [Luiz Ferreira]<normando@mirakulo.com>.
